@@ -1,0 +1,10 @@
+Header  {
+    display: inline;
+    position: inline;
+    top: 75px;
+    right:150px;
+    width: 250px;
+    height: 250px;
+    border: 2px solid #4aaaa5;
+    background-color: #fff;
+}
