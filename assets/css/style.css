@@ -1,14 +1,13 @@
-Header  {
-    display: inline;
-    top: 75px;
-    right:150px;
-    width: 250px;
-    height: 250px;
-    border: 2px solid #4aaaa5;
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5em;
     background-color: #fff;
- 
-}
+    color:#777;
+    background: Url("../images/pink_rice.png")
+    content-box 960px;  
 
+}
 .color-box {
     float:left; 
     background-color:#4aaaa5; 
@@ -25,10 +24,24 @@ Header  {
 
 }
 
+.main-content{
+    float: left;
+    width: 90%;
+    max-width: 960px;
+    padding: 60px;
+    border-style: solid;
+    border-color: #fff;
+    border-width:thick;
+    border-radius: 2px;
+    
+}
+
 .navStyle{
+    position:fixed;
+    width: 100%;
     background-color: #ccc;
-    padding-bottom: 2%;
-    padding-top: 2%;
+    margin: 0 0 30px;
+    padding: 20px;
     overflow: auto;
 }
 
@@ -38,22 +51,6 @@ Header  {
     background-color: #4aaaa5;
     height: 100%;
 }
-
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    line-height: 1.5em;
-    background-color: #fff;
-    color:#777;
-    border-color: #dddddd;
-    border-width:1px;
-    border-style: solid;
-    width: 960px;
-    padding: 45px;
-}
-
-  
-
 
 img {
     float: left;
@@ -86,9 +83,14 @@ hr {
 section{
     display: inline;
 }
-footer{ 
-    background-color: #666666;
-    color: white; 
-    text-align: center; 
-} 
 
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:#666666;
+  color: white;
+  border-top: 8px solid #4aaaa5;
+  text-align: center;
+}

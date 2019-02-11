@@ -8,3 +8,12 @@ Header  {
     border: 2px solid #4aaaa5;
     background-color: #fff;
 }
+
+.navStyle{
+    position:fixed;
+    width: 100%;
+    background-color: #ccc;
+    margin: 0 0 30px;
+    padding: 20px;
+    overflow: auto;
+}
